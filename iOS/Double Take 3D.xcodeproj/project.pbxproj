@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC23C4911BAB64A7009666AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23C4901BAB64A7009666AE /* AppDelegate.swift */; };
+		EC23C4931BAB64A7009666AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23C4921BAB64A7009666AE /* ViewController.swift */; };
+		EC23C4961BAB64A7009666AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC23C4941BAB64A7009666AE /* Main.storyboard */; };
+		EC23C4981BAB64A7009666AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC23C4971BAB64A7009666AE /* Assets.xcassets */; };
+		EC23C49B1BAB64A7009666AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC23C4991BAB64A7009666AE /* LaunchScreen.storyboard */; };
+		EC23C4A61BAB64A7009666AE /* Double_Take_3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23C4A51BAB64A7009666AE /* Double_Take_3DTests.swift */; };
+		EC23C4B11BAB64A7009666AE /* Double_Take_3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23C4B01BAB64A7009666AE /* Double_Take_3DUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC23C4A21BAB64A7009666AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC23C4851BAB64A7009666AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC23C48C1BAB64A7009666AE;
+			remoteInfo = "Double Take 3D";
+		};
+		EC23C4AD1BAB64A7009666AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC23C4851BAB64A7009666AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC23C48C1BAB64A7009666AE;
+			remoteInfo = "Double Take 3D";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC23C48D1BAB64A7009666AE /* Double Take 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Double Take 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC23C4901BAB64A7009666AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC23C4921BAB64A7009666AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC23C4951BAB64A7009666AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC23C4971BAB64A7009666AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC23C49A1BAB64A7009666AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC23C49C1BAB64A7009666AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC23C4A11BAB64A7009666AE /* Double Take 3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Double Take 3DTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC23C4A51BAB64A7009666AE /* Double_Take_3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double_Take_3DTests.swift; sourceTree = "<group>"; };
+		EC23C4A71BAB64A7009666AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC23C4AC1BAB64A7009666AE /* Double Take 3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Double Take 3DUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC23C4B01BAB64A7009666AE /* Double_Take_3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double_Take_3DUITests.swift; sourceTree = "<group>"; };
+		EC23C4B21BAB64A7009666AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC23C48A1BAB64A7009666AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC23C49E1BAB64A7009666AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC23C4A91BAB64A7009666AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC23C4841BAB64A7009666AE = {
+			isa = PBXGroup;
+			children = (
+				EC23C48F1BAB64A7009666AE /* Double Take 3D */,
+				EC23C4A41BAB64A7009666AE /* Double Take 3DTests */,
+				EC23C4AF1BAB64A7009666AE /* Double Take 3DUITests */,
+				EC23C48E1BAB64A7009666AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC23C48E1BAB64A7009666AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC23C48D1BAB64A7009666AE /* Double Take 3D.app */,
+				EC23C4A11BAB64A7009666AE /* Double Take 3DTests.xctest */,
+				EC23C4AC1BAB64A7009666AE /* Double Take 3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC23C48F1BAB64A7009666AE /* Double Take 3D */ = {
+			isa = PBXGroup;
+			children = (
+				EC23C4901BAB64A7009666AE /* AppDelegate.swift */,
+				EC23C4921BAB64A7009666AE /* ViewController.swift */,
+				EC23C4941BAB64A7009666AE /* Main.storyboard */,
+				EC23C4971BAB64A7009666AE /* Assets.xcassets */,
+				EC23C4991BAB64A7009666AE /* LaunchScreen.storyboard */,
+				EC23C49C1BAB64A7009666AE /* Info.plist */,
+			);
+			path = "Double Take 3D";
+			sourceTree = "<group>";
+		};
+		EC23C4A41BAB64A7009666AE /* Double Take 3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC23C4A51BAB64A7009666AE /* Double_Take_3DTests.swift */,
+				EC23C4A71BAB64A7009666AE /* Info.plist */,
+			);
+			path = "Double Take 3DTests";
+			sourceTree = "<group>";
+		};
+		EC23C4AF1BAB64A7009666AE /* Double Take 3DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC23C4B01BAB64A7009666AE /* Double_Take_3DUITests.swift */,
+				EC23C4B21BAB64A7009666AE /* Info.plist */,
+			);
+			path = "Double Take 3DUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC23C48C1BAB64A7009666AE /* Double Take 3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC23C4B51BAB64A7009666AE /* Build configuration list for PBXNativeTarget "Double Take 3D" */;
+			buildPhases = (
+				EC23C4891BAB64A7009666AE /* Sources */,
+				EC23C48A1BAB64A7009666AE /* Frameworks */,
+				EC23C48B1BAB64A7009666AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Double Take 3D";
+			productName = "Double Take 3D";
+			productReference = EC23C48D1BAB64A7009666AE /* Double Take 3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC23C4A01BAB64A7009666AE /* Double Take 3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC23C4B81BAB64A7009666AE /* Build configuration list for PBXNativeTarget "Double Take 3DTests" */;
+			buildPhases = (
+				EC23C49D1BAB64A7009666AE /* Sources */,
+				EC23C49E1BAB64A7009666AE /* Frameworks */,
+				EC23C49F1BAB64A7009666AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC23C4A31BAB64A7009666AE /* PBXTargetDependency */,
+			);
+			name = "Double Take 3DTests";
+			productName = "Double Take 3DTests";
+			productReference = EC23C4A11BAB64A7009666AE /* Double Take 3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC23C4AB1BAB64A7009666AE /* Double Take 3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC23C4BB1BAB64A7009666AE /* Build configuration list for PBXNativeTarget "Double Take 3DUITests" */;
+			buildPhases = (
+				EC23C4A81BAB64A7009666AE /* Sources */,
+				EC23C4A91BAB64A7009666AE /* Frameworks */,
+				EC23C4AA1BAB64A7009666AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC23C4AE1BAB64A7009666AE /* PBXTargetDependency */,
+			);
+			name = "Double Take 3DUITests";
+			productName = "Double Take 3DUITests";
+			productReference = EC23C4AC1BAB64A7009666AE /* Double Take 3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC23C4851BAB64A7009666AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Proximity Viz LLC";
+				TargetAttributes = {
+					EC23C48C1BAB64A7009666AE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EC23C4A01BAB64A7009666AE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EC23C48C1BAB64A7009666AE;
+					};
+					EC23C4AB1BAB64A7009666AE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EC23C48C1BAB64A7009666AE;
+					};
+				};
+			};
+			buildConfigurationList = EC23C4881BAB64A7009666AE /* Build configuration list for PBXProject "Double Take 3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC23C4841BAB64A7009666AE;
+			productRefGroup = EC23C48E1BAB64A7009666AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC23C48C1BAB64A7009666AE /* Double Take 3D */,
+				EC23C4A01BAB64A7009666AE /* Double Take 3DTests */,
+				EC23C4AB1BAB64A7009666AE /* Double Take 3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC23C48B1BAB64A7009666AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC23C49B1BAB64A7009666AE /* LaunchScreen.storyboard in Resources */,
+				EC23C4981BAB64A7009666AE /* Assets.xcassets in Resources */,
+				EC23C4961BAB64A7009666AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC23C49F1BAB64A7009666AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC23C4AA1BAB64A7009666AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC23C4891BAB64A7009666AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC23C4931BAB64A7009666AE /* ViewController.swift in Sources */,
+				EC23C4911BAB64A7009666AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC23C49D1BAB64A7009666AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC23C4A61BAB64A7009666AE /* Double_Take_3DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC23C4A81BAB64A7009666AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC23C4B11BAB64A7009666AE /* Double_Take_3DUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC23C4A31BAB64A7009666AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC23C48C1BAB64A7009666AE /* Double Take 3D */;
+			targetProxy = EC23C4A21BAB64A7009666AE /* PBXContainerItemProxy */;
+		};
+		EC23C4AE1BAB64A7009666AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC23C48C1BAB64A7009666AE /* Double Take 3D */;
+			targetProxy = EC23C4AD1BAB64A7009666AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC23C4941BAB64A7009666AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC23C4951BAB64A7009666AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC23C4991BAB64A7009666AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC23C49A1BAB64A7009666AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC23C4B31BAB64A7009666AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC23C4B41BAB64A7009666AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC23C4B61BAB64A7009666AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Double Take 3D/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.proximityviz.Double-Take-3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC23C4B71BAB64A7009666AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Double Take 3D/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.proximityviz.Double-Take-3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC23C4B91BAB64A7009666AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Double Take 3DTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.proximityviz.Double-Take-3DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Double Take 3D.app/Double Take 3D";
+			};
+			name = Debug;
+		};
+		EC23C4BA1BAB64A7009666AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Double Take 3DTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.proximityviz.Double-Take-3DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Double Take 3D.app/Double Take 3D";
+			};
+			name = Release;
+		};
+		EC23C4BC1BAB64A7009666AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Double Take 3DUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.proximityviz.Double-Take-3DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Double Take 3D";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC23C4BD1BAB64A7009666AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Double Take 3DUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.proximityviz.Double-Take-3DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Double Take 3D";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC23C4881BAB64A7009666AE /* Build configuration list for PBXProject "Double Take 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC23C4B31BAB64A7009666AE /* Debug */,
+				EC23C4B41BAB64A7009666AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC23C4B51BAB64A7009666AE /* Build configuration list for PBXNativeTarget "Double Take 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC23C4B61BAB64A7009666AE /* Debug */,
+				EC23C4B71BAB64A7009666AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC23C4B81BAB64A7009666AE /* Build configuration list for PBXNativeTarget "Double Take 3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC23C4B91BAB64A7009666AE /* Debug */,
+				EC23C4BA1BAB64A7009666AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC23C4BB1BAB64A7009666AE /* Build configuration list for PBXNativeTarget "Double Take 3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC23C4BC1BAB64A7009666AE /* Debug */,
+				EC23C4BD1BAB64A7009666AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC23C4851BAB64A7009666AE /* Project object */;
+}
