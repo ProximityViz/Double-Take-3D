@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LSm-xq-oMt">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Shoot-->
         <scene sceneID="sce-Gd-zrE">
             <objects>
-                <viewController id="phS-tQ-Fo4" sceneMemberID="viewController">
+                <viewController id="phS-tQ-Fo4" customClass="ShootVC" customModule="Double_Take_3D" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DHX-Ul-aVg"/>
                         <viewControllerLayoutGuide type="bottom" id="ILe-ff-4sM"/>
@@ -15,9 +17,64 @@
                     <view key="view" contentMode="scaleToFill" id="5am-39-yfq">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4aP-mM-fxS">
+                                <rect key="frame" x="0.0" y="20" width="300" height="471"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZSh-J6-9fD">
+                                <rect key="frame" x="300" y="20" width="300" height="471"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8z0-4l-vfc">
+                                <rect key="frame" x="20" y="499" width="560" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="BCU-8l-EIJ"/>
+                                </constraints>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveButtonTapped:" destination="phS-tQ-Fo4" eventType="touchUpInside" id="wqG-gI-D2O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZb-gm-mvV">
+                                <rect key="frame" x="0.0" y="20" width="300" height="471"/>
+                                <connections>
+                                    <action selector="leftImageTapped:" destination="phS-tQ-Fo4" eventType="touchUpInside" id="ro2-ip-3Et"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEX-Lh-auG">
+                                <rect key="frame" x="300" y="20" width="300" height="471"/>
+                                <connections>
+                                    <action selector="rightImageTapped:" destination="phS-tQ-Fo4" eventType="touchUpInside" id="dYb-6S-bJX"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZSh-J6-9fD" firstAttribute="top" secondItem="DHX-Ul-aVg" secondAttribute="bottom" id="3dX-Zn-8mx"/>
+                            <constraint firstItem="8z0-4l-vfc" firstAttribute="leading" secondItem="5am-39-yfq" secondAttribute="leadingMargin" id="6ks-rI-itM"/>
+                            <constraint firstItem="JZb-gm-mvV" firstAttribute="leading" secondItem="5am-39-yfq" secondAttribute="leading" id="GlV-aF-qoN"/>
+                            <constraint firstItem="4aP-mM-fxS" firstAttribute="leading" secondItem="5am-39-yfq" secondAttribute="leading" id="HLg-4A-Ke1"/>
+                            <constraint firstItem="ZSh-J6-9fD" firstAttribute="leading" secondItem="4aP-mM-fxS" secondAttribute="trailing" id="Hnw-zm-TkF"/>
+                            <constraint firstItem="4aP-mM-fxS" firstAttribute="top" secondItem="DHX-Ul-aVg" secondAttribute="bottom" id="Ppt-Ah-tSP"/>
+                            <constraint firstItem="EEX-Lh-auG" firstAttribute="top" secondItem="DHX-Ul-aVg" secondAttribute="bottom" id="QMH-aX-Adg"/>
+                            <constraint firstItem="8z0-4l-vfc" firstAttribute="top" secondItem="EEX-Lh-auG" secondAttribute="bottom" constant="8" id="UxM-U0-SU9"/>
+                            <constraint firstItem="8z0-4l-vfc" firstAttribute="top" secondItem="JZb-gm-mvV" secondAttribute="bottom" constant="8" id="ZC5-RA-gOD"/>
+                            <constraint firstAttribute="trailing" secondItem="ZSh-J6-9fD" secondAttribute="trailing" id="ZOX-zW-END"/>
+                            <constraint firstItem="EEX-Lh-auG" firstAttribute="leading" secondItem="JZb-gm-mvV" secondAttribute="trailing" id="c1p-SM-7z2"/>
+                            <constraint firstItem="ILe-ff-4sM" firstAttribute="top" secondItem="8z0-4l-vfc" secondAttribute="bottom" constant="8" id="h2Y-vy-Vdy"/>
+                            <constraint firstAttribute="trailing" secondItem="EEX-Lh-auG" secondAttribute="trailing" id="hKL-C0-zpO"/>
+                            <constraint firstItem="8z0-4l-vfc" firstAttribute="top" secondItem="4aP-mM-fxS" secondAttribute="bottom" constant="8" id="iF4-UW-O1w"/>
+                            <constraint firstItem="JZb-gm-mvV" firstAttribute="top" secondItem="DHX-Ul-aVg" secondAttribute="bottom" id="lBm-z8-DsV"/>
+                            <constraint firstItem="JZb-gm-mvV" firstAttribute="width" secondItem="EEX-Lh-auG" secondAttribute="width" id="me4-5e-EBR"/>
+                            <constraint firstItem="8z0-4l-vfc" firstAttribute="top" secondItem="ZSh-J6-9fD" secondAttribute="bottom" constant="8" id="oxc-I4-brL"/>
+                            <constraint firstItem="8z0-4l-vfc" firstAttribute="trailing" secondItem="5am-39-yfq" secondAttribute="trailingMargin" id="rP0-xf-wd9"/>
+                            <constraint firstItem="ZSh-J6-9fD" firstAttribute="width" secondItem="4aP-mM-fxS" secondAttribute="width" id="uN2-8n-to1"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Shoot" id="let-x2-HbO"/>
+                    <connections>
+                        <outlet property="leftImageView" destination="4aP-mM-fxS" id="XIX-Y9-zce"/>
+                        <outlet property="rightImageView" destination="ZSh-J6-9fD" id="0Lw-7y-Jze"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wOd-EN-gKW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -74,7 +131,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="9ma-oH-quv">
             <objects>
-                <tabBarController id="LSm-xq-oMt" sceneMemberID="viewController">
+                <tabBarController id="LSm-xq-oMt" customClass="TabBarController" customModule="Double_Take_3D" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="yAv-K0-F4T">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

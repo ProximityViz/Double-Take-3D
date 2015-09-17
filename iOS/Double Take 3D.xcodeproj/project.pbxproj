@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EC23C4911BAB64A7009666AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23C4901BAB64A7009666AE /* AppDelegate.swift */; };
-		EC23C4931BAB64A7009666AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23C4921BAB64A7009666AE /* ViewController.swift */; };
 		EC23C4961BAB64A7009666AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC23C4941BAB64A7009666AE /* Main.storyboard */; };
 		EC23C4981BAB64A7009666AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC23C4971BAB64A7009666AE /* Assets.xcassets */; };
 		EC23C49B1BAB64A7009666AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC23C4991BAB64A7009666AE /* LaunchScreen.storyboard */; };
 		EC23C4A61BAB64A7009666AE /* Double_Take_3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23C4A51BAB64A7009666AE /* Double_Take_3DTests.swift */; };
 		EC23C4B11BAB64A7009666AE /* Double_Take_3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23C4B01BAB64A7009666AE /* Double_Take_3DUITests.swift */; };
+		EC7F06221BAB69CE00A216BD /* ShootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F06211BAB69CE00A216BD /* ShootVC.swift */; settings = {ASSET_TAGS = (); }; };
+		EC7F06241BAB6FB700A216BD /* NonRotatingUIImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F06231BAB6FB700A216BD /* NonRotatingUIImagePickerController.swift */; settings = {ASSET_TAGS = (); }; };
+		EC7F06261BAB7B6500A216BD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F06251BAB7B6500A216BD /* TabBarController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		EC23C48D1BAB64A7009666AE /* Double Take 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Double Take 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC23C4901BAB64A7009666AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC23C4921BAB64A7009666AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC23C4951BAB64A7009666AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC23C4971BAB64A7009666AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC23C49A1BAB64A7009666AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		EC23C4AC1BAB64A7009666AE /* Double Take 3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Double Take 3DUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC23C4B01BAB64A7009666AE /* Double_Take_3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double_Take_3DUITests.swift; sourceTree = "<group>"; };
 		EC23C4B21BAB64A7009666AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7F06211BAB69CE00A216BD /* ShootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShootVC.swift; sourceTree = "<group>"; };
+		EC7F06231BAB6FB700A216BD /* NonRotatingUIImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonRotatingUIImagePickerController.swift; sourceTree = "<group>"; };
+		EC7F06251BAB7B6500A216BD /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		EC23C48F1BAB64A7009666AE /* Double Take 3D */ = {
 			isa = PBXGroup;
 			children = (
+				EC7F06231BAB6FB700A216BD /* NonRotatingUIImagePickerController.swift */,
 				EC23C4901BAB64A7009666AE /* AppDelegate.swift */,
-				EC23C4921BAB64A7009666AE /* ViewController.swift */,
+				EC7F06251BAB7B6500A216BD /* TabBarController.swift */,
+				EC7F06211BAB69CE00A216BD /* ShootVC.swift */,
 				EC23C4941BAB64A7009666AE /* Main.storyboard */,
 				EC23C4971BAB64A7009666AE /* Assets.xcassets */,
 				EC23C4991BAB64A7009666AE /* LaunchScreen.storyboard */,
@@ -192,6 +198,7 @@
 				TargetAttributes = {
 					EC23C48C1BAB64A7009666AE = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 34XFQ7WVN3;
 					};
 					EC23C4A01BAB64A7009666AE = {
 						CreatedOnToolsVersion = 7.0;
@@ -255,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC23C4931BAB64A7009666AE /* ViewController.swift in Sources */,
+				EC7F06221BAB69CE00A216BD /* ShootVC.swift in Sources */,
+				EC7F06261BAB7B6500A216BD /* TabBarController.swift in Sources */,
 				EC23C4911BAB64A7009666AE /* AppDelegate.swift in Sources */,
+				EC7F06241BAB6FB700A216BD /* NonRotatingUIImagePickerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +407,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Double Take 3D/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proximityviz.Double-Take-3D";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,7 +420,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Double Take 3D/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proximityviz.Double-Take-3D";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +496,7 @@
 				EC23C4B71BAB64A7009666AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC23C4B81BAB64A7009666AE /* Build configuration list for PBXNativeTarget "Double Take 3DTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +505,7 @@
 				EC23C4BA1BAB64A7009666AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC23C4BB1BAB64A7009666AE /* Build configuration list for PBXNativeTarget "Double Take 3DUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +514,7 @@
 				EC23C4BD1BAB64A7009666AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
