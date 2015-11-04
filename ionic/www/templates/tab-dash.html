@@ -1,0 +1,11 @@
+<ion-view view-title="Dashboard">
+  <ion-content>
+    <swipe-cards>
+      <swipe-card ng-repeat="card in cards" on-destroy="cardDestroyed($index)" on-card-swipe="cardSwiped($index)" ng-click="test()">
+        <div class="image">
+          <img src="img/sample-photos/{{card}}">
+        </div>
+      </swipe-card>
+    </swipe-cards>
+  </ion-content>
+</ion-view>
