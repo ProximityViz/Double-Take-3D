@@ -8,6 +8,8 @@
 
 import UIKit
 import Photos
+import Parse
+import Bolts
 
 class ShootVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -71,11 +73,32 @@ class ShootVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCo
         imagePicker.dismissViewControllerAnimated(true, completion: nil)
     }
     
+    func saveToParse() {
+        
+        let threeDPhoto = PFObject(className: "ThreeDPhoto")
+        
+//        threeDPhoto["left"] = leftImageView.image
+//        threeDPhoto["right"] = rightImageView.image
+        threeDPhoto["user"] = "Shawn"
+        
+        threeDPhoto.saveInBackgroundWithBlock { (success, error) -> Void in
+            if success == true {
+                print("save to parse successful")
+            } else {
+                print("failed to save to parse")
+                print(error)
+            }
+        }
+        
+    }
+    
     @IBAction func saveButtonTapped(sender: AnyObject) {
         
         // segue
         
         // save image URLs
+        
+        saveToParse()
         
         leftImageView.image = nil
         rightImageView.image = nil

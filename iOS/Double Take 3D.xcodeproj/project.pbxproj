@@ -16,6 +16,18 @@
 		EC7F06221BAB69CE00A216BD /* ShootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F06211BAB69CE00A216BD /* ShootVC.swift */; settings = {ASSET_TAGS = (); }; };
 		EC7F06241BAB6FB700A216BD /* NonRotatingUIImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F06231BAB6FB700A216BD /* NonRotatingUIImagePickerController.swift */; settings = {ASSET_TAGS = (); }; };
 		EC7F06261BAB7B6500A216BD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F06251BAB7B6500A216BD /* TabBarController.swift */; settings = {ASSET_TAGS = (); }; };
+		ECC23D541BACC6520088CEE2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D521BACC6520088CEE2 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		ECC23D551BACC6520088CEE2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D531BACC6520088CEE2 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		ECC23D601BACC69D0088CEE2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D561BACC69D0088CEE2 /* AudioToolbox.framework */; };
+		ECC23D611BACC69D0088CEE2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D571BACC69D0088CEE2 /* CFNetwork.framework */; };
+		ECC23D621BACC69D0088CEE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D581BACC69D0088CEE2 /* CoreGraphics.framework */; };
+		ECC23D631BACC69D0088CEE2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D591BACC69D0088CEE2 /* CoreLocation.framework */; };
+		ECC23D641BACC69D0088CEE2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D5A1BACC69D0088CEE2 /* libsqlite3.tbd */; };
+		ECC23D651BACC69D0088CEE2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D5B1BACC69D0088CEE2 /* libz.tbd */; };
+		ECC23D661BACC69D0088CEE2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D5C1BACC69D0088CEE2 /* QuartzCore.framework */; };
+		ECC23D671BACC69D0088CEE2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D5D1BACC69D0088CEE2 /* Security.framework */; };
+		ECC23D681BACC69D0088CEE2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D5E1BACC69D0088CEE2 /* StoreKit.framework */; };
+		ECC23D691BACC69D0088CEE2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC23D5F1BACC69D0088CEE2 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,18 @@
 		EC7F06211BAB69CE00A216BD /* ShootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShootVC.swift; sourceTree = "<group>"; };
 		EC7F06231BAB6FB700A216BD /* NonRotatingUIImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonRotatingUIImagePickerController.swift; sourceTree = "<group>"; };
 		EC7F06251BAB7B6500A216BD /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		ECC23D521BACC6520088CEE2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		ECC23D531BACC6520088CEE2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		ECC23D561BACC69D0088CEE2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ECC23D571BACC69D0088CEE2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		ECC23D581BACC69D0088CEE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECC23D591BACC69D0088CEE2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ECC23D5A1BACC69D0088CEE2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		ECC23D5B1BACC69D0088CEE2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		ECC23D5C1BACC69D0088CEE2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ECC23D5D1BACC69D0088CEE2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ECC23D5E1BACC69D0088CEE2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		ECC23D5F1BACC69D0088CEE2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC23D601BACC69D0088CEE2 /* AudioToolbox.framework in Frameworks */,
+				ECC23D611BACC69D0088CEE2 /* CFNetwork.framework in Frameworks */,
+				ECC23D621BACC69D0088CEE2 /* CoreGraphics.framework in Frameworks */,
+				ECC23D631BACC69D0088CEE2 /* CoreLocation.framework in Frameworks */,
+				ECC23D641BACC69D0088CEE2 /* libsqlite3.tbd in Frameworks */,
+				ECC23D651BACC69D0088CEE2 /* libz.tbd in Frameworks */,
+				ECC23D661BACC69D0088CEE2 /* QuartzCore.framework in Frameworks */,
+				ECC23D671BACC69D0088CEE2 /* Security.framework in Frameworks */,
+				ECC23D681BACC69D0088CEE2 /* StoreKit.framework in Frameworks */,
+				ECC23D691BACC69D0088CEE2 /* SystemConfiguration.framework in Frameworks */,
+				ECC23D551BACC6520088CEE2 /* Parse.framework in Frameworks */,
+				ECC23D541BACC6520088CEE2 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,7 @@
 				EC23C4A41BAB64A7009666AE /* Double Take 3DTests */,
 				EC23C4AF1BAB64A7009666AE /* Double Take 3DUITests */,
 				EC23C48E1BAB64A7009666AE /* Products */,
+				ECC23D6A1BACC6D40088CEE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +166,25 @@
 				EC23C4B21BAB64A7009666AE /* Info.plist */,
 			);
 			path = "Double Take 3DUITests";
+			sourceTree = "<group>";
+		};
+		ECC23D6A1BACC6D40088CEE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECC23D561BACC69D0088CEE2 /* AudioToolbox.framework */,
+				ECC23D571BACC69D0088CEE2 /* CFNetwork.framework */,
+				ECC23D581BACC69D0088CEE2 /* CoreGraphics.framework */,
+				ECC23D591BACC69D0088CEE2 /* CoreLocation.framework */,
+				ECC23D5A1BACC69D0088CEE2 /* libsqlite3.tbd */,
+				ECC23D5B1BACC69D0088CEE2 /* libz.tbd */,
+				ECC23D5C1BACC69D0088CEE2 /* QuartzCore.framework */,
+				ECC23D5D1BACC69D0088CEE2 /* Security.framework */,
+				ECC23D5E1BACC69D0088CEE2 /* StoreKit.framework */,
+				ECC23D5F1BACC69D0088CEE2 /* SystemConfiguration.framework */,
+				ECC23D521BACC6520088CEE2 /* Bolts.framework */,
+				ECC23D531BACC6520088CEE2 /* Parse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,11 +464,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Double Take 3D/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proximityviz.Double-Take-3D";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -421,11 +482,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Double Take 3D/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proximityviz.Double-Take-3D";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
